@@ -14,22 +14,19 @@
     },
     "ARIA2C_SECRET": {
       "description": "Aria2c's Secret",
-      "value": "AiGdrive_Bot12345"
-      "required": true
+      "required": false
     },
     "HEROKU_APP_NAME": {
       "description": "This should be the same as 'App name' above",
-      "value": "aiteamware"
-      "required": true
+      "required": false
     },
     "RCLONE_CONFIG": {
       "description": "rclone config to mount in one line, replace line breaks with '\n'",
-      "required": true
+      "required": false
     },
     "RCLONE_DESTINATION": {
       "description": "Path to store your file in Rclone drive. Must start with a forward slash",
-      "value": "/downloads"
-      "required": true
+      "required": false
     }
   },
   "stack": "heroku-18"
