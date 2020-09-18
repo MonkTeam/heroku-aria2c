@@ -17,11 +17,11 @@
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "This should be the same as "App name" above",
+      "description": "This should be the same as 'App name' above",
       "required": false
     },
     "RCLONE_CONFIG": {
-      "description": "rclone config to mount in one line, replace line breaks with "\n"",
+      "description": "rclone config to mount in one line, replace line breaks with '\n'",
       "required": false
     },
     "RCLONE_DESTINATION": {
