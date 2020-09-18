@@ -1,0 +1,32 @@
+{
+  "name": "Heroku-Aria2c",
+  "description": "A Telegram Torrent (and youtube-dl) Leecher Bot uploading to GDrive",
+  "keywords": [
+    "telegram"
+  ],
+  "repository": "https://github.com/MonkTeam/heroku-aria2c",
+  "success_url": "https://t.me/AiTorrentWare_Gdrive",
+  "website": "https://github.com/maple3142/heroku-aria2c",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "ARIA2C_SECRET": {
+      "description": "Aria2c's Secret",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "This should be the same as "App name" above",
+      "required": false
+    },
+    "RCLONE_CONFIG": {
+      "description": "rclone config to mount in one line, replace line breaks with "\n"",
+      "required": false
+    },
+    "RCLONE_DESTINATION": {
+      "description": "Path to store your file in Rclone drive. Must start with a forward slash",
+      "required": false
+    }
+  },
+}
